@@ -13,7 +13,9 @@ module.exports = {
       time: 15000,
     };
     msg.channel
-      .send('Welcome to MLNS Policy Bot! What is the policy id of the NFT?')
+      .send(
+        'Welcome to MLNS Policy Bot! What is the policy id of the NFT that you want to insert?'
+      )
       .then((collected) => {
         // After each question, we'll setup a collector on the DM channel
         return collected.channel.awaitMessages(filter, options);
