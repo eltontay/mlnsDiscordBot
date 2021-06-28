@@ -1,4 +1,13 @@
 # MLNS Discord Policy Id Bot
 
-Discord bot that stores information such as policy id, title, description, etc.
+This discord bot has 3 functions : insert , search and delete
+
 # mlnsDiscordBot
+
+To start,
+
+Key in either 3 prefix :
+
+!insert
+!search
+!delete
